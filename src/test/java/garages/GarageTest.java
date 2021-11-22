@@ -45,7 +45,7 @@ public class GarageTest {
 		// Elle n'est plus dans un garage
 		assertFalse(v1.estDansUnGarage());
 		// g1 fait partie des garages visités par la voiture
-		assertTrue(v1.garagesVisites().contains(g1));
+		assertTrue(v1.garagesVisites().contains(g1), "true");
 	}
 
 	@Test
